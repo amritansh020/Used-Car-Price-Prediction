@@ -1,182 +1,383 @@
 # 🚗 Used Car Price Prediction & Analysis
 
-An end-to-end data science project that scrapes **44,000+ used car listings** from [CarWale](https://www.carwale.com) across **11 Indian cities** and **24 car brands**, performs comprehensive data cleaning, and builds a **price prediction system** with a **Streamlit web application**.
+A practical **data analysis and machine learning project** focused on
+understanding the Indian used-car market and predicting used-car prices
+from vehicle specifications.
 
----
+**Project by Amritansh**
 
-## ✨ Features
+> This repository is maintained as a personal learning and portfolio
+> project. The codebase covers web scraping, data cleaning, exploratory
+> analysis, feature selection, and machine-learning-based price
+> prediction.
 
-- **📊 Data Analysis** — Explore trends, distributions, and insights across makes, models, cities, and fuel types
-- **💰 Price Prediction** — ML models to predict used car prices based on specifications and condition
-- **🔍 Recommendation System** — Suggest similar cars based on user preferences
-- **⚖️ Car Comparison** — Side-by-side comparison of multiple cars
-- **🌐 Streamlit App** — User-friendly web interface for all the above
+------------------------------------------------------------------------
 
----
+## 📌 Project Overview
 
-## 🛠 Tech Stack
+The project works with used-car listings collected from **CarWale**
+across multiple Indian cities and car brands.
 
-| Component            | Tools / Libraries                           |
-| -------------------- | ------------------------------------------- |
-| **Web Scraping**     | Python, Playwright, BeautifulSoup, Requests |
-| **Data Processing**  | Pandas, NumPy                               |
-| **Machine Learning** | scikit-learn (planned)                      |
-| **Web App**          | Streamlit                                   |
-| **Environment**      | Jupyter Notebooks, Python 3.12+             |
+The overall workflow is:
 
----
-
-## 📈 Dataset
-
-### Scope
-
-| Dimension                  | Count        |
-| -------------------------- | ------------ |
-| **Total listings scraped** | ~44,000 URLs |
-| **Final cleaned records**  | ~30,000      |
-| **Features (raw)**         | 679 columns  |
-| **Features (cleaned)**     | 638 columns  |
-| **Cities**                 | 11           |
-
-### Cities Covered
-
-Ahmedabad · Bangalore · Chennai · Dehradun · Delhi · Gurgaon · Hyderabad · Kanpur · Lucknow · Mumbai · Pune
-
-### Car Makes (24)
-
-Maruti Suzuki · Hyundai · Tata · Mahindra · Toyota · Honda · Ford · Renault · Kia · BMW · Mercedes-Benz · MG · Volkswagen · Audi · Škoda · Land Rover · Volvo · Nissan · Jeep · Chevrolet · Jaguar · Fiat · Datsun · MINI
-
-### Fuel Type Distribution
-
-| Fuel Type   | Approx. Share |
-| ----------- | ------------- |
-| ⛽ Petrol   | ~60%          |
-| ⛽ Diesel   | ~35%          |
-| ⚡ Electric | ~1.6%         |
-| 🔋 CNG      | ~2%           |
-| 🌿 Hybrid   | ~1%           |
-
----
-
-## 🔄 Pipeline
-
-```
-Web Scraping (Playwright + BS4)
-        ↓
-   44,000+ raw listings
-        ↓
-Data Cleaning (Pandas)
-        ↓
-   ~30,000 cleaned records
-        ↓
+``` text
+Web Scraping
+     ↓
+Raw Used-Car Data
+     ↓
+Data Cleaning & Validation
+     ↓
 Exploratory Data Analysis
-        ↓
-Feature Selection (per fuel type)
-        ↓
-ML Models (Price Prediction)
-        ↓
-Streamlit Web Application
+     ↓
+Feature Selection
+     ↓
+Machine Learning
+     ↓
+Used-Car Price Prediction
 ```
 
-### 1. Web Scraping
+The project is designed to demonstrate practical skills in:
 
-- **URL Collection** (`scrape-urls-new.py`) — Uses Playwright to scrape infinite-scroll listing pages for each city + make combination, collecting all car detail page URLs
-- **Detail Scraping** (`scrape-car-details.py`) — Visits each car's detail page and extracts title, price, images, overview fields, and **650+ specification features**
-- **Resumable** — Progress is saved per city (`*-progress.json`), so scraping can be safely interrupted and resumed
+-   Data collection
+-   Data cleaning
+-   Exploratory Data Analysis (EDA)
+-   Feature engineering and selection
+-   Regression modelling
+-   Python and Jupyter Notebook workflows
+-   Working with large tabular datasets
 
-### 2. Data Cleaning
+------------------------------------------------------------------------
 
-- **Cleaning v1** — Removes ~1,845 duplicate rows, analyzes null counts and fuel type distribution
-- **Cleaning v2** — Drops constant columns (29 with only 1 unique value), merges duplicate overview columns, final shape: **29,946 rows × 638 columns**
-- **Column Info** — `columns-info.json` documents null counts and unique value counts for every column
+## 🎯 Objectives
 
-### 3. Modeling (WIP)
+1.  Collect used-car listing data from multiple Indian cities.
+2.  Clean and prepare the raw dataset for analysis.
+3.  Identify useful vehicle and market features.
+4.  Explore relationships between car specifications and price.
+5.  Train regression models for price prediction.
+6.  Evaluate model performance using standard regression metrics.
+7.  Build a foundation for a future interactive prediction application.
 
-Models are trained **per fuel type** with carefully selected feature sets:
+------------------------------------------------------------------------
 
-- **Petrol** — Engine, Mileage, Max Power, Torque, Transmission, ABS, Airbags, Sunroof, etc.
-- **Diesel** — Engine, Turbocharger, Mileage, Torque, Hill Hold, etc.
-- **Electric (EV)** — Battery, Driving Range, Charging Options, Regenerative Braking, etc.
-- **CNG** — Engine, CNG Tank Capacity, Fuel Change Over Switch, etc.
-- **Hybrid** — Engine, Battery, Electric Motor, Regenerative Braking, etc.
+## 📊 Dataset
 
-### 4. Web Application
+The project contains data collected from approximately **44,000+
+used-car listings/URLs**, followed by several stages of cleaning.
 
-A Streamlit app that provides:
+### Coverage
 
-- 📊 Interactive data visualizations and insights
-- 💰 Used car price estimator
-- 🔍 Smart car recommendation engine
-- ⚖️ Car comparison tool
+-   **Cities:** Ahmedabad, Bangalore, Chennai, Dehradun, Delhi, Gurgaon,
+    Hyderabad, Kanpur, Lucknow, Mumbai, Pune
+-   **Brands:** Maruti Suzuki, Hyundai, Tata, Mahindra, Toyota, Honda,
+    Ford, Renault, Kia, BMW, Mercedes-Benz, MG, Volkswagen, Audi, Škoda,
+    Land Rover, Volvo, Nissan, Jeep, Chevrolet, Jaguar, Fiat, Datsun and
+    MINI
+-   **Raw features:** hundreds of vehicle and listing attributes
+-   **Final cleaned dataset:** approximately 30,000 records after
+    cleaning
 
----
+### Important vehicle information
+
+Examples of features used or investigated include:
+
+-   Brand
+-   Model
+-   Variant
+-   Price
+-   Manufacturing Year
+-   Registration Year
+-   Car Age
+-   Kilometres Driven
+-   Ownership
+-   Fuel Type
+-   Transmission
+-   City
+-   Engine
+-   Mileage
+-   Max Power
+-   Torque
+-   Airbags
+-   ABS
+-   ESP
+-   Cruise Control
+-   Parking Sensors
+-   Sunroof
+-   Wheelbase
+-   Ground Clearance
+-   Boot Space
+
+------------------------------------------------------------------------
+
+## 🕷️ Web Scraping
+
+The scraping pipeline uses:
+
+-   **Python**
+-   **Playwright**
+-   **BeautifulSoup**
+-   **Requests**
+
+### Main scraping files
+
+``` text
+scraping-data/
+├── scrape-urls-new.py
+├── scrape-car-details.py
+├── scrape-urls-old.py
+├── convert-jsonl-to-df.ipynb
+├── carwale-urls/
+└── output/
+```
+
+The URL collection scripts gather vehicle listing URLs, while the detail
+scraper extracts information from individual vehicle pages.
+
+Progress files are stored by city so that long scraping jobs can be
+resumed.
+
+------------------------------------------------------------------------
+
+## 🧹 Data Cleaning
+
+Several Jupyter notebooks are used to progressively clean and validate
+the dataset.
+
+``` text
+data-cleaning/
+├── cleaning-1.ipynb
+├── cleaning-2.ipynb
+├── cleaning-3.ipynb
+├── cleaning-4.ipynb
+├── cleaning-5.ipynb
+├── cleaning-6.ipynb
+├── cleaning-7.ipynb
+├── all_col_name.json
+└── columns-info.json
+```
+
+The cleaning workflow includes:
+
+-   Duplicate detection and removal
+-   Missing-value analysis
+-   Column inspection
+-   Removing low-information/constant columns
+-   Combining or cleaning duplicate information
+-   Checking categorical values
+-   Preparing the dataset for modelling
+
+------------------------------------------------------------------------
+
+## 📈 Exploratory Data Analysis
+
+The analysis explores how used-car prices vary with factors such as:
+
+-   Brand
+-   City
+-   Fuel type
+-   Engine specifications
+-   Mileage
+-   Power
+-   Vehicle age
+-   Other vehicle features
+
+Correlation analysis and visualizations are used to identify potentially
+important predictors of price.
+
+------------------------------------------------------------------------
+
+## 🤖 Machine Learning
+
+The modelling work is contained in:
+
+``` text
+traning/model_training.ipynb
+```
+
+The notebook uses **scikit-learn** preprocessing pipelines and
+regression models.
+
+Models explored include:
+
+-   Linear Regression
+-   Decision Tree Regressor
+-   Random Forest Regressor
+-   Gradient Boosting Regressor
+-   XGBoost Regressor
+
+The current modelling workflow includes:
+
+-   Train/test split
+-   One-hot encoding
+-   Ordinal encoding
+-   Target encoding
+-   Numerical feature handling
+-   Pipeline-based preprocessing
+-   Regression prediction
+-   Model evaluation
+
+### Evaluation metrics
+
+The project uses:
+
+-   **R² Score**
+-   **Mean Absolute Error (MAE)**
+-   **Mean Squared Error (MSE)**
+
+------------------------------------------------------------------------
+
+## 🗂️ Project Structure
+
+``` text
+Used-Car-Price-Prediction/
+│
+├── data/
+│   ├── data_raw.csv
+│   ├── data_cleaned-v1.csv
+│   ├── data_cleaned-v2.csv
+│   ├── data_cleaned-v3.csv
+│   ├── data_cleaned-v4.csv
+│   ├── data_cleaned-v5.csv
+│   ├── data_cleaned-v6.csv
+│   └── data_cleaned-v7.csv
+│
+├── data-cleaning/
+│   ├── cleaning-1.ipynb
+│   ├── cleaning-2.ipynb
+│   ├── cleaning-3.ipynb
+│   ├── cleaning-4.ipynb
+│   ├── cleaning-5.ipynb
+│   ├── cleaning-6.ipynb
+│   ├── cleaning-7.ipynb
+│   ├── all_col_name.json
+│   └── columns-info.json
+│
+├── scraping-data/
+│   ├── carwale-urls/
+│   ├── output/
+│   ├── scrape-car-details.py
+│   ├── scrape-urls-new.py
+│   ├── scrape-urls-old.py
+│   └── convert-jsonl-to-df.ipynb
+│
+├── traning/
+│   └── model_training.ipynb
+│
+├── check_data.ipynb
+├── index.txt
+├── requirements.txt
+└── README.md
+```
+
+------------------------------------------------------------------------
+
+## 🛠️ Technologies Used
+
+  Area               Technologies
+  ------------------ -------------------------------------
+  Programming        Python
+  Data Analysis      Pandas, NumPy
+  Visualization      Matplotlib, Seaborn
+  Web Scraping       Playwright, BeautifulSoup, Requests
+  Machine Learning   Scikit-learn, XGBoost
+  Development        Jupyter Notebook, VS Code
+  Version Control    Git & GitHub
+
+------------------------------------------------------------------------
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 1. Clone the repository
 
-- Python 3.12 or higher
-- pip
+``` bash
+git clone https://github.com/amritansh020/Used-Car-Price-Prediction.git
+cd Used-Car-Price-Prediction
+```
 
-### Installation
+### 2. Install dependencies
 
-```bash
-# Clone the repository
-git clone
-cd used-car-price-prediction
-
-# Install dependencies
+``` bash
 pip install -r requirements.txt
-
-# Install Playwright browsers
-playwright install chromium
 ```
 
-### Usage
+### 3. Install Playwright browsers
 
-```bash
-# Run the Streamlit app
-streamlit run app.py
-
-# Or explore the data in Jupyter
-jupyter notebook
+``` bash
+python -m playwright install chromium
 ```
 
----
+### 4. Explore the notebooks
 
-## 📁 Project Structure
+Open the project in VS Code or Jupyter and start with:
 
-```
-├── scraping-data/
-│   ├── scrape-urls-new.py         # URL collection script
-│   ├── scrape-car-details.py      # Car detail scraping script
-│   ├── convert-jsonl-to-df.ipynb  # Consolidate raw data into CSV
-│   ├── carwale-urls/              # Collected URLs per city
-│   └── output/                    # Scraped data (JSON/JSONL)
-│
-├── data-cleaning/
-│   ├── cleaning-1.ipynb           # Initial cleaning & dedup
-│   ├── cleaning-2.ipynb           # Advanced cleaning
-│   └── columns-info.json          # Column metadata
-│
-├── data/
-│   ├── data_raw.csv               # Raw scraped data
-│   ├── data_cleaned-v1.csv        # After initial cleaning
-│   └── data_cleaned-v2.csv        # Final cleaned dataset
-│
-├── check_data.ipynb               # Data validation notebook
-├── index.txt                      # Project notes & planning
-└── README.md                      # You are here!
+``` text
+check_data.ipynb
 ```
 
----
+Then review the notebooks inside:
 
-## 📝 License
+``` text
+data-cleaning/
+```
 
-This project is for educational and research purposes. Data was scraped from CarWale — please respect their terms of service.
+and the model-training notebook:
 
----
+``` text
+traning/model_training.ipynb
+```
 
-## 👥 Team
+------------------------------------------------------------------------
 
-Built as part of the **Data Science (300526)** course project.
+## 💡 What I Learned From This Project
+
+This project gave me practical exposure to an end-to-end data workflow:
+
+-   Collecting real-world web data
+-   Handling messy and inconsistent datasets
+-   Working with missing values and duplicates
+-   Performing EDA
+-   Selecting meaningful features
+-   Encoding categorical variables
+-   Building reproducible ML pipelines
+-   Evaluating regression models
+-   Managing a data-science project with Git and GitHub
+
+------------------------------------------------------------------------
+
+## 🔮 Future Improvements
+
+Possible next steps include:
+
+-   Improve model accuracy through systematic hyperparameter tuning
+-   Compare models using consistent validation
+-   Reduce unnecessary features
+-   Add stronger outlier handling
+-   Build a polished Streamlit prediction interface
+-   Add interactive visualizations
+-   Add automated data-refreshing pipelines
+-   Deploy the final application
+
+------------------------------------------------------------------------
+
+## ⚠️ Data & Usage Note
+
+The project uses data collected from CarWale for educational and
+analytical purposes.
+
+If you reuse or extend this project, respect the source website's terms
+of service, robots.txt, and applicable laws/policies.
+
+------------------------------------------------------------------------
+
+## 👤 Author
+
+**Amritansh**
+
+GitHub: [@amritansh020](https://github.com/amritansh020)
+
+------------------------------------------------------------------------
+
+## 📄 License
+
+This project is intended primarily for educational and portfolio
+purposes.
