@@ -1,0 +1,2718 @@
+{
+    "title": {
+        "null": "933",
+        "unique": "10073"
+    },
+    "new_car_price": {
+        "null": "2871",
+        "unique": "3997"
+    },
+    "car_img_url": {
+        "null": "3",
+        "unique": "24652"
+    },
+    "overview_Price": {
+        "null": "1794",
+        "unique": "2095"
+    },
+    "overview_Kilometer": {
+        "null": "1794",
+        "unique": "9006"
+    },
+    "overview_Fuel type": {
+        "null": "1794",
+        "unique": "21"
+    },
+    "overview_Registration year": {
+        "null": "1794",
+        "unique": "212"
+    },
+    "overview_Manufacturing Year": {
+        "null": "1794",
+        "unique": "283"
+    },
+    "overview_No. of owners": {
+        "null": "2146",
+        "unique": "6"
+    },
+    "overview_Transmission": {
+        "null": "1794",
+        "unique": "128"
+    },
+    "overview_Color": {
+        "null": "1797",
+        "unique": "1568"
+    },
+    "overview_Car Available at": {
+        "null": "1794",
+        "unique": "1773"
+    },
+    "overview_Insurance": {
+        "null": "1794",
+        "unique": "6"
+    },
+    "overview_Registration Type": {
+        "null": "1794",
+        "unique": "6"
+    },
+    "overview_Last Updated": {
+        "null": "1794",
+        "unique": "130"
+    },
+    "spec_Engine": {
+        "null": "2167",
+        "unique": "402"
+    },
+    "spec_Engine Type": {
+        "null": "4947",
+        "unique": "721"
+    },
+    "spec_Fuel Type": {
+        "null": "1995",
+        "unique": "9"
+    },
+    "spec_Max Power (bhp@rpm)": {
+        "null": "2807",
+        "unique": "687"
+    },
+    "spec_Max Torque (Nm@rpm)": {
+        "null": "2432",
+        "unique": "665"
+    },
+    "spec_Mileage": {
+        "null": "5179",
+        "unique": "1363"
+    },
+    "spec_Drivetrain": {
+        "null": "2820",
+        "unique": "6"
+    },
+    "spec_Transmission": {
+        "null": "1995",
+        "unique": "127"
+    },
+    "spec_Length *Width *Height": {
+        "null": "2428",
+        "unique": "692"
+    },
+    "spec_Wheelbase": {
+        "null": "2401",
+        "unique": "220"
+    },
+    "spec_Kerb Weight": {
+        "null": "15519",
+        "unique": "617"
+    },
+    "spec_Seating Capacity": {
+        "null": "2277",
+        "unique": "24"
+    },
+    "spec_Doors": {
+        "null": "2371",
+        "unique": "4"
+    },
+    "spec_Bootspace": {
+        "null": "7876",
+        "unique": "220"
+    },
+    "spec_Fuel Tank Capacity": {
+        "null": "3077",
+        "unique": "69"
+    },
+    "spec_Front Suspension": {
+        "null": "3220",
+        "unique": "410"
+    },
+    "spec_Rear Suspension": {
+        "null": "3221",
+        "unique": "420"
+    },
+    "spec_Tyres": {
+        "null": "2914",
+        "unique": "6"
+    },
+    "spec_Spare Wheel & Tyre": {
+        "null": "3820",
+        "unique": "34"
+    },
+    "spec_Minimum Turning Radius": {
+        "null": "9870",
+        "unique": "72"
+    },
+    "spec_Front Tyres": {
+        "null": "2513",
+        "unique": "173"
+    },
+    "spec_Rear Tyres": {
+        "null": "2587",
+        "unique": "186"
+    },
+    "spec_Sunroof": {
+        "null": "2779",
+        "unique": "17"
+    },
+    "spec_Roof Rails": {
+        "null": "3617",
+        "unique": "3"
+    },
+    "spec_Body-coloured Bumpers": {
+        "null": "3478",
+        "unique": "2"
+    },
+    "spec_Antenna": {
+        "null": "5766",
+        "unique": "8"
+    },
+    "spec_Second Row Middle Seat Safety": {
+        "null": "3708",
+        "unique": "5"
+    },
+    "spec_Seat Belt Warning": {
+        "null": "3127",
+        "unique": "3"
+    },
+    "spec_Air Conditioner": {
+        "null": "2701",
+        "unique": "128"
+    },
+    "spec_Heater": {
+        "null": "3515",
+        "unique": "2"
+    },
+    "spec_Cruise Control": {
+        "null": "3584",
+        "unique": "5"
+    },
+    "spec_Parking Assist": {
+        "null": "3674",
+        "unique": "11"
+    },
+    "spec_Steering Adjustment": {
+        "null": "2690",
+        "unique": "6"
+    },
+    "spec_Keyless Start/ Button Start": {
+        "null": "3513",
+        "unique": "3"
+    },
+    "spec_Vanity Mirrors on Sun Visors": {
+        "null": "3683",
+        "unique": "8"
+    },
+    "spec_Headlight and Ignition on Reminder": {
+        "null": "3613",
+        "unique": "2"
+    },
+    "spec_Charging Ports": {
+        "null": "3660",
+        "unique": "25"
+    },
+    "spec_Headlights": {
+        "null": "3489",
+        "unique": "8"
+    },
+    "spec_Cornering Headlights": {
+        "null": "4218",
+        "unique": "6"
+    },
+    "spec_Headlight Height Adjuster": {
+        "null": "3605",
+        "unique": "2"
+    },
+    "spec_Automatic Headlamps": {
+        "null": "3631",
+        "unique": "2"
+    },
+    "spec_Fog Lights": {
+        "null": "10385",
+        "unique": "18"
+    },
+    "spec_Follow Me Home Headlamps": {
+        "null": "3836",
+        "unique": "2"
+    },
+    "spec_Interior Lamps": {
+        "null": "4774",
+        "unique": "55"
+    },
+    "spec_Puddle Lamps": {
+        "null": "5219",
+        "unique": "3"
+    },
+    "spec_Brakes": {
+        "null": "2492",
+        "unique": "14"
+    },
+    "spec_Anti-Lock Braking System (ABS)": {
+        "null": "2161",
+        "unique": "3"
+    },
+    "spec_Brake Assist (BA)": {
+        "null": "3680",
+        "unique": "3"
+    },
+    "spec_Electronic Brake-force Distribution (EBD)": {
+        "null": "3595",
+        "unique": "2"
+    },
+    "spec_Electronic Stability Program (ESP)": {
+        "null": "3540",
+        "unique": "3"
+    },
+    "spec_Traction Control System (TC/TCS)": {
+        "null": "3758",
+        "unique": "3"
+    },
+    "spec_Hill Hold Control": {
+        "null": "3711",
+        "unique": "4"
+    },
+    "spec_Hill Descent Control": {
+        "null": "3814",
+        "unique": "4"
+    },
+    "spec_Limited Slip Differential": {
+        "null": "3828",
+        "unique": "2"
+    },
+    "spec_Differential Lock": {
+        "null": "3845",
+        "unique": "5"
+    },
+    "spec_Engine Immobiliser": {
+        "null": "2715",
+        "unique": "2"
+    },
+    "spec_Central Locking": {
+        "null": "2724",
+        "unique": "8"
+    },
+    "spec_Child Safety Lock": {
+        "null": "2700",
+        "unique": "2"
+    },
+    "spec_Speed Sensing Door Lock": {
+        "null": "3682",
+        "unique": "2"
+    },
+    "spec_Anti-glare ORVMs": {
+        "null": "3755",
+        "unique": "4"
+    },
+    "spec_Exterior Door": {
+        "null": "3598",
+        "unique": "22"
+    },
+    "spec_Interior Door Handles Finish": {
+        "null": "3969",
+        "unique": "7"
+    },
+    "spec_Power Windows": {
+        "null": "2709",
+        "unique": "37"
+    },
+    "spec_Door Pockets": {
+        "null": "3637",
+        "unique": "4"
+    },
+    "spec_ORVM (Outside Rear View Mirrors)": {
+        "null": "3515",
+        "unique": "22"
+    },
+    "spec_Adjustable ORVMs": {
+        "null": "3508",
+        "unique": "6"
+    },
+    "spec_Rain-sensing Wipers": {
+        "null": "3886",
+        "unique": "2"
+    },
+    "spec_Rear Wiper": {
+        "null": "2721",
+        "unique": "2"
+    },
+    "spec_Boot Opener": {
+        "null": "3677",
+        "unique": "12"
+    },
+    "spec_Rear Defogger": {
+        "null": "2925",
+        "unique": "2"
+    },
+    "spec_Audio System": {
+        "null": "3547",
+        "unique": "79"
+    },
+    "spec_AM/FM Radio": {
+        "null": "2716",
+        "unique": "3"
+    },
+    "spec_Steering-Mounted Controls": {
+        "null": "3621",
+        "unique": "2"
+    },
+    "spec_Integrated (in-dash) Music System": {
+        "null": "3614",
+        "unique": "3"
+    },
+    "spec_Bluetooth Compatibility": {
+        "null": "3539",
+        "unique": "5"
+    },
+    "spec_Input Methods": {
+        "null": "3529",
+        "unique": "33"
+    },
+    "spec_GPS Navigation System": {
+        "null": "3678",
+        "unique": "3"
+    },
+    "spec_Seat Upholstery": {
+        "null": "2720",
+        "unique": "14"
+    },
+    "spec_Fourth Row Seat Adjustment": {
+        "null": "3532",
+        "unique": "2"
+    },
+    "spec_Wrappings": {
+        "null": "16106",
+        "unique": "9"
+    },
+    "spec_Headrests": {
+        "null": "3583",
+        "unique": "4"
+    },
+    "spec_Front Seatback Pockets": {
+        "null": "3630",
+        "unique": "2"
+    },
+    "spec_Driver Armrest": {
+        "null": "3562",
+        "unique": "3"
+    },
+    "spec_Rear Armrest": {
+        "null": "3614",
+        "unique": "4"
+    },
+    "spec_Split Rear Seat": {
+        "null": "3142",
+        "unique": "6"
+    },
+    "spec_Folding Rear Seat": {
+        "null": "4146",
+        "unique": "3"
+    },
+    "spec_Split Third Row Seat": {
+        "null": "3697",
+        "unique": "5"
+    },
+    "spec_Active headrest": {
+        "null": "11575",
+        "unique": "2"
+    },
+    "spec_Fuel Consumption": {
+        "null": "3539",
+        "unique": "15"
+    },
+    "spec_Trip Meter": {
+        "null": "3982",
+        "unique": "6"
+    },
+    "spec_Door Ajar Warning": {
+        "null": "3518",
+        "unique": "2"
+    },
+    "spec_Average Speed": {
+        "null": "3572",
+        "unique": "2"
+    },
+    "spec_Clock": {
+        "null": "3526",
+        "unique": "3"
+    },
+    "spec_Cup Holders": {
+        "null": "3484",
+        "unique": "12"
+    },
+    "spec_Cooled Glovebox": {
+        "null": "3705",
+        "unique": "2"
+    },
+    "spec_Sunglass Holder": {
+        "null": "3670",
+        "unique": "2"
+    },
+    "spec_Third Row Cup Holders": {
+        "null": "3876",
+        "unique": "3"
+    },
+    "spec_Vehicle Warranty": {
+        "null": "3953",
+        "unique": "14"
+    },
+    "spec_Turbocharger/ Supercharger": {
+        "null": "4988",
+        "unique": "21"
+    },
+    "spec_Idle Start/Stop": {
+        "null": "5049",
+        "unique": "3"
+    },
+    "spec_Advanced Suspension Features": {
+        "null": "5145",
+        "unique": "4"
+    },
+    "spec_Rub-strips": {
+        "null": "5209",
+        "unique": "6"
+    },
+    "spec_Body Kit": {
+        "null": "5230",
+        "unique": "7"
+    },
+    "spec_Tyre Pressure Monitoring System": {
+        "null": "5134",
+        "unique": "5"
+    },
+    "spec_Child Seat Anchor Points": {
+        "null": "5374",
+        "unique": "3"
+    },
+    "spec_Parking Sensors": {
+        "null": "5086",
+        "unique": "5"
+    },
+    "spec_Cabin Boot Access": {
+        "null": "5111",
+        "unique": "2"
+    },
+    "spec_Taillights": {
+        "null": "5016",
+        "unique": "5"
+    },
+    "spec_Four-Wheel-Drive": {
+        "null": "5103",
+        "unique": "6"
+    },
+    "spec_Window Sunshade": {
+        "null": "5273",
+        "unique": "8"
+    },
+    "spec_Infotainment Screen": {
+        "null": "5030",
+        "unique": "71"
+    },
+    "spec_Voice Command": {
+        "null": "5147",
+        "unique": "2"
+    },
+    "spec_Ventilated Seats": {
+        "null": "5103",
+        "unique": "13"
+    },
+    "spec_Interior": {
+        "null": "5791",
+        "unique": "315"
+    },
+    "spec_Rear Passenger Seat Type": {
+        "null": "5044",
+        "unique": "5"
+    },
+    "spec_Third Row Seat Type": {
+        "null": "5051",
+        "unique": "6"
+    },
+    "spec_Instrument Cluster Screen": {
+        "null": "5038",
+        "unique": "37"
+    },
+    "spec_Heads Up Display (HUD)": {
+        "null": "5169",
+        "unique": "4"
+    },
+    "spec_Tachometer": {
+        "null": "5032",
+        "unique": "4"
+    },
+    "spec_Gear Indicator": {
+        "null": "5518",
+        "unique": "2"
+    },
+    "spec_Driver Armrest Storage": {
+        "null": "5180",
+        "unique": "2"
+    },
+    "spec_Emission Standard": {
+        "null": "12315",
+        "unique": "4"
+    },
+    "spec_Ground Clearance": {
+        "null": "10355",
+        "unique": "109"
+    },
+    "spec_Steering": {
+        "null": "4991",
+        "unique": "16"
+    },
+    "spec_Wheels": {
+        "null": "4908",
+        "unique": "5"
+    },
+    "spec_Exhaust": {
+        "null": "23127",
+        "unique": "6"
+    },
+    "spec_Airbags": {
+        "null": "13015",
+        "unique": "44"
+    },
+    "spec_Daytime Running Lights (DRL)": {
+        "null": "12104",
+        "unique": "5"
+    },
+    "spec_Smart Connectivity": {
+        "null": "13091",
+        "unique": "19"
+    },
+    "spec_Driver Seat Adjustment": {
+        "null": "13098",
+        "unique": "136"
+    },
+    "spec_Gear Shift Indicator": {
+        "null": "5402",
+        "unique": "5"
+    },
+    "spec_Battery": {
+        "null": "16360",
+        "unique": "69"
+    },
+    "spec_Electric Motor": {
+        "null": "16412",
+        "unique": "16"
+    },
+    "spec_Ethanol Compatibility": {
+        "null": "21820",
+        "unique": "2"
+    },
+    "spec_Alternate Fuel": {
+        "null": "15634",
+        "unique": "4"
+    },
+    "spec_Acceleration": {
+        "null": "26152",
+        "unique": "132"
+    },
+    "spec_Top Speed": {
+        "null": "28488",
+        "unique": "43"
+    },
+    "spec_Driving Range": {
+        "null": "20019",
+        "unique": "408"
+    },
+    "spec_Pure Electric Driving Mode": {
+        "null": "16189",
+        "unique": "3"
+    },
+    "spec_Additional Steering Features": {
+        "null": "16364",
+        "unique": "3"
+    },
+    "spec_Puncture Repair Kit": {
+        "null": "17587",
+        "unique": "3"
+    },
+    "spec_Regenerative Braking": {
+        "null": "26642",
+        "unique": "7"
+    },
+    "spec_Forward Collision Warning": {
+        "null": "17713",
+        "unique": "5"
+    },
+    "spec_NCAP Rating": {
+        "null": "17426",
+        "unique": "21"
+    },
+    "spec_Automatic Emergency Braking": {
+        "null": "17545",
+        "unique": "5"
+    },
+    "spec_Lane Functions": {
+        "null": "17544",
+        "unique": "16"
+    },
+    "spec_Lane Departure Warning": {
+        "null": "17557",
+        "unique": "3"
+    },
+    "spec_Blind Spot Detection": {
+        "null": "17541",
+        "unique": "3"
+    },
+    "spec_High-beam Assist": {
+        "null": "17525",
+        "unique": "5"
+    },
+    "spec_Emergency Brake Light Flashing": {
+        "null": "17568",
+        "unique": "3"
+    },
+    "spec_Overspeed Warning": {
+        "null": "15938",
+        "unique": "2"
+    },
+    "spec_Air Purifier": {
+        "null": "17093",
+        "unique": "7"
+    },
+    "spec_Umbrella Storage in Door": {
+        "null": "22182",
+        "unique": "2"
+    },
+    "spec_Heated/Cooled Cup Holders": {
+        "null": "23054",
+        "unique": "5"
+    },
+    "spec_Electronic Parking Brake": {
+        "null": "24337",
+        "unique": "4"
+    },
+    "spec_Dashcam": {
+        "null": "24293",
+        "unique": "4"
+    },
+    "spec_Ambient Interior Lighting": {
+        "null": "16616",
+        "unique": "24"
+    },
+    "spec_Scuff Plates": {
+        "null": "17730",
+        "unique": "10"
+    },
+    "spec_WiFi Hotspot": {
+        "null": "17532",
+        "unique": "3"
+    },
+    "spec_Gesture Control": {
+        "null": "16073",
+        "unique": "3"
+    },
+    "spec_Wireless Charger": {
+        "null": "17461",
+        "unique": "6"
+    },
+    "spec_Front Passenger Seat Adjustment": {
+        "null": "13820",
+        "unique": "114"
+    },
+    "spec_Second Row Seat Adjustment": {
+        "null": "16336",
+        "unique": "37"
+    },
+    "spec_Third Row Seat Adjustment": {
+        "null": "16085",
+        "unique": "7"
+    },
+    "spec_Massage Seats": {
+        "null": "19639",
+        "unique": "5"
+    },
+    "spec_Emergency Call Button": {
+        "null": "16328",
+        "unique": "3"
+    },
+    "spec_Find My Car": {
+        "null": "16273",
+        "unique": "3"
+    },
+    "spec_Check Vehicle Status via App": {
+        "null": "16274",
+        "unique": "3"
+    },
+    "spec_Remote Car Lock/Unlock via App": {
+        "null": "16388",
+        "unique": "3"
+    },
+    "spec_Remote Parking with Key": {
+        "null": "23710",
+        "unique": "3"
+    },
+    "spec_Remote AC: On / Off via App": {
+        "null": "16387",
+        "unique": "2"
+    },
+    "spec_Remote Sunroof: Open / Close via App": {
+        "null": "16578",
+        "unique": "2"
+    },
+    "spec_Car Light Flashing & Honking via App": {
+        "null": "16511",
+        "unique": "3"
+    },
+    "spec_Over The Air (OTA) Updates": {
+        "null": "16336",
+        "unique": "3"
+    },
+    "spec_Geo-fence": {
+        "null": "16331",
+        "unique": "3"
+    },
+    "spec_Alexa Compatibility": {
+        "null": "16531",
+        "unique": "2"
+    },
+    "spec_Battery Warranty": {
+        "null": "17137",
+        "unique": "20"
+    },
+    "spec_Spoiler": {
+        "null": "24792",
+        "unique": "2"
+    },
+    "spec_Summon Mode": {
+        "null": "29321",
+        "unique": "2"
+    },
+    "spec_Low Battery Warning": {
+        "null": "28853",
+        "unique": "2"
+    },
+    "spec_CNG Fuel Gauge": {
+        "null": "28422",
+        "unique": "3"
+    },
+    "spec_Total CNG Mode Time": {
+        "null": "28452",
+        "unique": "3"
+    },
+    "spec_DC Fast Charging": {
+        "null": "29727",
+        "unique": "24"
+    },
+    "spec_AC Fast Charging": {
+        "null": "29727",
+        "unique": "27"
+    },
+    "spec_AC Regular Charging": {
+        "null": "29764",
+        "unique": "22"
+    },
+    "spec_Differential": {
+        "null": "29033",
+        "unique": "3"
+    },
+    "spec_ADAS": {
+        "null": "27493",
+        "unique": "9"
+    },
+    "spec_Remote Engine Start/Stop": {
+        "null": "24229",
+        "unique": "2"
+    },
+    "spec_Fuel Change Over Switch": {
+        "null": "28585",
+        "unique": "3"
+    },
+    "spec_Direct Start in CNG": {
+        "null": "28301",
+        "unique": "3"
+    },
+    "spec_Charging Options": {
+        "null": "28904",
+        "unique": "5"
+    },
+    "spec_Vehicle to Vehicle charging (V2V)": {
+        "null": "28569",
+        "unique": "3"
+    },
+    "spec_Vehicle to load technology (V2L)": {
+        "null": "28564",
+        "unique": "3"
+    },
+    "spec_Charger Connection Type": {
+        "null": "28552",
+        "unique": "3"
+    },
+    "spec_Portable EV Charging Cable": {
+        "null": "28563",
+        "unique": "3"
+    },
+    "spec_Charger Included with Vehicle": {
+        "null": "28936",
+        "unique": "6"
+    },
+    "spec_Power Transfer Type": {
+        "null": "28644",
+        "unique": "3"
+    },
+    "spec_Rear Collision Assist": {
+        "null": "27728",
+        "unique": "22"
+    },
+    "spec_CNG Leak Detection": {
+        "null": "28521",
+        "unique": "3"
+    },
+    "spec_Ingress Protection(IP) for Motor & Battery Pack": {
+        "null": "28702",
+        "unique": "3"
+    },
+    "spec_Third Row Middle Seat Safety": {
+        "null": "28696",
+        "unique": "4"
+    },
+    "spec_Motor Warranty (In Years)": {
+        "null": "29428",
+        "unique": "3"
+    },
+    "spec_Drive Modes": {
+        "null": "28585",
+        "unique": "46"
+    },
+    "spec_Noise Levels": {
+        "null": "29264",
+        "unique": "4"
+    },
+    "spec_Extendable Sun Visor": {
+        "null": "20048",
+        "unique": "4"
+    },
+    "spec_Utility Recess On Dashboard": {
+        "null": "28915",
+        "unique": "2"
+    },
+    "spec_Stop Lamp": {
+        "null": "28639",
+        "unique": "3"
+    },
+    "spec_Voice Assistant": {
+        "null": "27300",
+        "unique": "8"
+    },
+    "spec_Location Based Services": {
+        "null": "29190",
+        "unique": "5"
+    },
+    "spec_In-Car Payment": {
+        "null": "28767",
+        "unique": "3"
+    },
+    "spec_Chassis Type": {
+        "null": "28914",
+        "unique": "2"
+    },
+    "spec_Diffuser": {
+        "null": "28835",
+        "unique": "2"
+    },
+    "spec_Snorkel": {
+        "null": "28460",
+        "unique": "1"
+    },
+    "spec_Seatbelts": {
+        "null": "28458",
+        "unique": "7"
+    },
+    "spec_Hands-off Detection": {
+        "null": "28992",
+        "unique": "3"
+    },
+    "spec_Perimetric alarm system": {
+        "null": "29075",
+        "unique": "2"
+    },
+    "spec_Driver Drowsiness Detection": {
+        "null": "28460",
+        "unique": "4"
+    },
+    "spec_Automatic Park Lock": {
+        "null": "28779",
+        "unique": "2"
+    },
+    "spec_Acoustic Vehicle Alerting System (AVAS)": {
+        "null": "28849",
+        "unique": "2"
+    },
+    "spec_Heated ORVM": {
+        "null": "28505",
+        "unique": "3"
+    },
+    "spec_Passenger Airbag Deactivation Switch": {
+        "null": "28792",
+        "unique": "2"
+    },
+    "spec_Boot Open Warning": {
+        "null": "28963",
+        "unique": "4"
+    },
+    "spec_Brake Disc Wiping": {
+        "null": "29006",
+        "unique": "2"
+    },
+    "spec_Multi-collision Brake": {
+        "null": "28969",
+        "unique": "2"
+    },
+    "spec_Park Distance Control": {
+        "null": "28769",
+        "unique": "2"
+    },
+    "spec_Lockable Glovebox": {
+        "null": "29036",
+        "unique": "2"
+    },
+    "spec_Skid Plate": {
+        "null": "28705",
+        "unique": "4"
+    },
+    "spec_Height Adjustable Seat Belt": {
+        "null": "28726",
+        "unique": "4"
+    },
+    "spec_Driver Rear View Monitor (DRVM)": {
+        "null": "28729",
+        "unique": "2"
+    },
+    "spec_In-Car Remote": {
+        "null": "28966",
+        "unique": "4"
+    },
+    "spec_Headlight Washer": {
+        "null": "28725",
+        "unique": "3"
+    },
+    "spec_Creep Function": {
+        "null": "29056",
+        "unique": "2"
+    },
+    "spec_Fuel Fillers Lid": {
+        "null": "28700",
+        "unique": "4"
+    },
+    "spec_Dead Pedal for Foot Rest": {
+        "null": "28935",
+        "unique": "2"
+    },
+    "spec_Video Recording": {
+        "null": "28661",
+        "unique": "2"
+    },
+    "spec_Connected LED": {
+        "null": "28748",
+        "unique": "5"
+    },
+    "spec_Welcome and Goodbye Animation": {
+        "null": "28784",
+        "unique": "2"
+    },
+    "spec_Illuminated Logo": {
+        "null": "28914",
+        "unique": "3"
+    },
+    "spec_Charging Indicator On Light Bar": {
+        "null": "28845",
+        "unique": "3"
+    },
+    "spec_Brake Sway Control": {
+        "null": "29221",
+        "unique": "2"
+    },
+    "spec_Inside Rear View Mirror (iRVM)": {
+        "null": "28571",
+        "unique": "5"
+    },
+    "spec_Integrated Washer Jets with Wiper": {
+        "null": "28589",
+        "unique": "2"
+    },
+    "spec_Additional Windshield & Window Features": {
+        "null": "28762",
+        "unique": "3"
+    },
+    "spec_SIM Service Provider": {
+        "null": "29566",
+        "unique": "3"
+    },
+    "spec_Ergo lever / Boss Mode": {
+        "null": "29271",
+        "unique": "2"
+    },
+    "spec_Comfort Headrest": {
+        "null": "29110",
+        "unique": "4"
+    },
+    "spec_Rear Parcel Tray": {
+        "null": "28712",
+        "unique": "2"
+    },
+    "spec_Connected Car App": {
+        "null": "29223",
+        "unique": "2"
+    },
+    "spec_Home-to-Car Connectivity": {
+        "null": "29136",
+        "unique": "3"
+    },
+    "spec_Speedometer": {
+        "null": "28701",
+        "unique": "3"
+    },
+    "spec_Navigation On Instrument Cluster": {
+        "null": "28954",
+        "unique": "2"
+    },
+    "spec_Tyre Position Display": {
+        "null": "29287",
+        "unique": "2"
+    },
+    "spec_Outside Temperature Gauge": {
+        "null": "28901",
+        "unique": "2"
+    },
+    "spec_Bottle Holder in Doors": {
+        "null": "28930",
+        "unique": "4"
+    },
+    "spec_Driveline Disconnect": {
+        "null": "28917",
+        "unique": "3"
+    },
+    "spec_Hub Lock": {
+        "null": "28989",
+        "unique": "4"
+    },
+    "spec_Washable Floor with Drain Plugs": {
+        "null": "28806",
+        "unique": "3"
+    },
+    "spec_Roll Cage": {
+        "null": "28831",
+        "unique": "3"
+    },
+    "spec_Gyro Meter": {
+        "null": "29040",
+        "unique": "3"
+    },
+    "spec_Crawl Control": {
+        "null": "29289",
+        "unique": "2"
+    },
+    "spec_Grille Design": {
+        "null": "29532",
+        "unique": "30"
+    },
+    "spec_Traffic Sign Recognition": {
+        "null": "28690",
+        "unique": "2"
+    },
+    "spec_Speed Assist System": {
+        "null": "28604",
+        "unique": "4"
+    },
+    "spec_Safe Exit Warning (SEW)": {
+        "null": "28621",
+        "unique": "2"
+    },
+    "spec_Anti Theft Alarm": {
+        "null": "28887",
+        "unique": "2"
+    },
+    "spec_Dual Tone Horn": {
+        "null": "29133",
+        "unique": "2"
+    },
+    "spec_Motor Slip Regulation (MSR)": {
+        "null": "29270",
+        "unique": "2"
+    },
+    "spec_Rollover & Protection System": {
+        "null": "28659",
+        "unique": "7"
+    },
+    "spec_Roof-Grab Handles": {
+        "null": "28792",
+        "unique": "14"
+    },
+    "spec_Terrain Modes": {
+        "null": "28761",
+        "unique": "17"
+    },
+    "spec_Ambient Sounds": {
+        "null": "28814",
+        "unique": "2"
+    },
+    "spec_Inbuilt Music App": {
+        "null": "29285",
+        "unique": "3"
+    },
+    "spec_Call Reject with SMS": {
+        "null": "29259",
+        "unique": "2"
+    },
+    "spec_Whatsapp and Text Readout": {
+        "null": "29339",
+        "unique": "2"
+    },
+    "spec_App Details": {
+        "null": "29347",
+        "unique": "29"
+    },
+    "spec_Tow Away Alert": {
+        "null": "29369",
+        "unique": "3"
+    },
+    "spec_Auto Crash Alert": {
+        "null": "29334",
+        "unique": "2"
+    },
+    "spec_Live Traffic Updates On App": {
+        "null": "29423",
+        "unique": "2"
+    },
+    "spec_Vehicle Tracking Via App": {
+        "null": "29186",
+        "unique": "2"
+    },
+    "spec_Smart Drive Information": {
+        "null": "29236",
+        "unique": "2"
+    },
+    "spec_Digital Key": {
+        "null": "29144",
+        "unique": "2"
+    },
+    "spec_Remote Air Purifier Operation": {
+        "null": "29189",
+        "unique": "2"
+    },
+    "spec_Welded Tow Hooks": {
+        "null": "28832",
+        "unique": "4"
+    },
+    "spec_Tow Hitch Protection": {
+        "null": "28839",
+        "unique": "3"
+    },
+    "spec_Brake Locking Differential": {
+        "null": "28860",
+        "unique": "4"
+    },
+    "spec_CNG Tank Capacity (L/Kg)": {
+        "null": "29767",
+        "unique": "5"
+    },
+    "spec_Tyre Inflator": {
+        "null": "29293",
+        "unique": "2"
+    },
+    "spec_Cornering Brake Control (CBC)": {
+        "null": "28898",
+        "unique": "2"
+    },
+    "spec_Collapsible Steering Column": {
+        "null": "29016",
+        "unique": "3"
+    },
+    "spec_Reflectors": {
+        "null": "28924",
+        "unique": "4"
+    },
+    "spec_Sequential Turn Indicators": {
+        "null": "29124",
+        "unique": "5"
+    },
+    "spec_Speed Dependent Volume": {
+        "null": "29221",
+        "unique": "2"
+    },
+    "spec_Live Location Sharing": {
+        "null": "29107",
+        "unique": "2"
+    },
+    "spec_Eco-Drive Illumination": {
+        "null": "29711",
+        "unique": "2"
+    },
+    "spec_Clutch Type": {
+        "null": "29581",
+        "unique": "4"
+    },
+    "spec_Frequency Selective Damping (FSD)": {
+        "null": "29259",
+        "unique": "2"
+    },
+    "spec_Special Badging": {
+        "null": "29874",
+        "unique": "5"
+    },
+    "spec_Leading Vehicle Departure Alert": {
+        "null": "29705",
+        "unique": "2"
+    },
+    "spec_Thermal Incident Protection": {
+        "null": "29507",
+        "unique": "3"
+    },
+    "spec_Brake Override System": {
+        "null": "29527",
+        "unique": "2"
+    },
+    "spec_Clutch Lock": {
+        "null": "29036",
+        "unique": "3"
+    },
+    "spec_Charge Port Status Light": {
+        "null": "29562",
+        "unique": "3"
+    },
+    "spec_Torque Vectoring Brake Assist": {
+        "null": "29690",
+        "unique": "2"
+    },
+    "spec_Brake Fade Support": {
+        "null": "29757",
+        "unique": "2"
+    },
+    "spec_ORVMs Tilt on Reverse": {
+        "null": "29736",
+        "unique": "2"
+    },
+    "spec_Memory ORVMs": {
+        "null": "29695",
+        "unique": "2"
+    },
+    "spec_What3Words -Address Based Navigation": {
+        "null": "29311",
+        "unique": "2"
+    },
+    "spec_Pre-loaded Major Apps in Infotainment": {
+        "null": "29385",
+        "unique": "2"
+    },
+    "spec_Foldable Seatback Table": {
+        "null": "29564",
+        "unique": "2"
+    },
+    "spec_Anti Theft Immobilisation": {
+        "null": "29216",
+        "unique": "2"
+    },
+    "spec_Driving Analytics": {
+        "null": "29433",
+        "unique": "2"
+    },
+    "spec_Breakdown Assistance Call Button": {
+        "null": "29321",
+        "unique": "2"
+    },
+    "spec_Send Place Of Interest to Vehicle From App": {
+        "null": "29325",
+        "unique": "2"
+    },
+    "spec_Find and Book Parking Slot": {
+        "null": "29330",
+        "unique": "2"
+    },
+    "spec_Service Reminder Via App": {
+        "null": "29222",
+        "unique": "2"
+    },
+    "spec_Motor Warranty (In Kilometres)": {
+        "null": "29867",
+        "unique": "4"
+    },
+    "spec_Performance on Alternate Fuel": {
+        "null": "29887",
+        "unique": "9"
+    },
+    "spec_Child Safety Rating": {
+        "null": "29800",
+        "unique": "3"
+    },
+    "spec_Low Rolling Resistance Tyres": {
+        "null": "29735",
+        "unique": "2"
+    },
+    "spec_Approach Angle": {
+        "null": "29563",
+        "unique": "10"
+    },
+    "spec_Departure Angle": {
+        "null": "29563",
+        "unique": "12"
+    },
+    "spec_Rampover Angle": {
+        "null": "29602",
+        "unique": "9"
+    },
+    "spec_Water Wading Depth (mm)": {
+        "null": "29685",
+        "unique": "3"
+    },
+    "spec_Kerb Weight Range": {
+        "null": "29808",
+        "unique": "24"
+    },
+    "spec_Gross Weight": {
+        "null": "29624",
+        "unique": "25"
+    },
+    "spec_Range (As tested by CarWale)": {
+        "null": "29826",
+        "unique": "8"
+    },
+    "spec_Officially Certified Range (km)": {
+        "null": "29826",
+        "unique": "21"
+    },
+    "spec_Legroom": {
+        "null": "29942",
+        "unique": "2"
+    },
+    "spec_Frunk Storage": {
+        "null": "29905",
+        "unique": "8"
+    },
+    "Price": {
+        "null": "29085",
+        "unique": "302"
+    },
+    "Kilometer": {
+        "null": "29085",
+        "unique": "385"
+    },
+    "Fuel type": {
+        "null": "29085",
+        "unique": "12"
+    },
+    "Registration year": {
+        "null": "29085",
+        "unique": "40"
+    },
+    "Manufacturing Year": {
+        "null": "29085",
+        "unique": "169"
+    },
+    "No. of owners": {
+        "null": "29102",
+        "unique": "5"
+    },
+    "Transmission": {
+        "null": "29085",
+        "unique": "74"
+    },
+    "Color": {
+        "null": "29085",
+        "unique": "204"
+    },
+    "Car Available at": {
+        "null": "29085",
+        "unique": "105"
+    },
+    "Insurance": {
+        "null": "29085",
+        "unique": "5"
+    },
+    "Registration Type": {
+        "null": "29085",
+        "unique": "5"
+    },
+    "Last Updated": {
+        "null": "29085",
+        "unique": "44"
+    },
+    "Engine": {
+        "null": "29102",
+        "unique": "144"
+    },
+    "Engine Type": {
+        "null": "29192",
+        "unique": "232"
+    },
+    "Turbocharger/ Supercharger": {
+        "null": "29210",
+        "unique": "7"
+    },
+    "Battery": {
+        "null": "29587",
+        "unique": "17"
+    },
+    "Electric Motor": {
+        "null": "29587",
+        "unique": "7"
+    },
+    "Fuel Type": {
+        "null": "29100",
+        "unique": "7"
+    },
+    "Ethanol Compatibility": {
+        "null": "29701",
+        "unique": "2"
+    },
+    "Max Power (bhp@rpm)": {
+        "null": "29130",
+        "unique": "205"
+    },
+    "Max Torque (Nm@rpm)": {
+        "null": "29107",
+        "unique": "225"
+    },
+    "Alternate Fuel": {
+        "null": "29567",
+        "unique": "2"
+    },
+    "Emission Standard": {
+        "null": "29488",
+        "unique": "4"
+    },
+    "Acceleration": {
+        "null": "29809",
+        "unique": "58"
+    },
+    "Top Speed": {
+        "null": "29862",
+        "unique": "17"
+    },
+    "Mileage": {
+        "null": "29183",
+        "unique": "322"
+    },
+    "Idle Start/Stop": {
+        "null": "29207",
+        "unique": "2"
+    },
+    "Driving Range": {
+        "null": "29668",
+        "unique": "126"
+    },
+    "Drivetrain": {
+        "null": "29130",
+        "unique": "5"
+    },
+    "Pure Electric Driving Mode": {
+        "null": "29578",
+        "unique": "3"
+    },
+    "Length *Width *Height": {
+        "null": "29107",
+        "unique": "253"
+    },
+    "Wheelbase": {
+        "null": "29107",
+        "unique": "109"
+    },
+    "Seating Capacity": {
+        "null": "29107",
+        "unique": "14"
+    },
+    "Doors": {
+        "null": "29108",
+        "unique": "4"
+    },
+    "Fuel Tank Capacity": {
+        "null": "29142",
+        "unique": "50"
+    },
+    "Front Suspension": {
+        "null": "29139",
+        "unique": "157"
+    },
+    "Rear Suspension": {
+        "null": "29138",
+        "unique": "170"
+    },
+    "Advanced Suspension Features ": {
+        "null": "29223",
+        "unique": "4"
+    },
+    "Additional Steering Features": {
+        "null": "29597",
+        "unique": "2"
+    },
+    "Steering": {
+        "null": "29203",
+        "unique": "12"
+    },
+    "Tyres": {
+        "null": "29134",
+        "unique": "6"
+    },
+    "Spare Wheel & Tyre": {
+        "null": "29171",
+        "unique": "17"
+    },
+    "Minimum Turning Radius": {
+        "null": "29300",
+        "unique": "39"
+    },
+    "Front Tyres": {
+        "null": "29111",
+        "unique": "91"
+    },
+    "Rear Tyres": {
+        "null": "29115",
+        "unique": "93"
+    },
+    "Wheels": {
+        "null": "29210",
+        "unique": "3"
+    },
+    "Puncture Repair Kit": {
+        "null": "29628",
+        "unique": "2"
+    },
+    "Regenerative Braking": {
+        "null": "29864",
+        "unique": "3"
+    },
+    "Sunroof ": {
+        "null": "29124",
+        "unique": "11"
+    },
+    "Roof Rails": {
+        "null": "29172",
+        "unique": "3"
+    },
+    "Body-coloured Bumpers": {
+        "null": "29163",
+        "unique": "2"
+    },
+    "Rub-strips": {
+        "null": "29221",
+        "unique": "5"
+    },
+    "Body Kit": {
+        "null": "29220",
+        "unique": "6"
+    },
+    "Antenna": {
+        "null": "29229",
+        "unique": "6"
+    },
+    "Forward Collision Warning": {
+        "null": "29635",
+        "unique": "3"
+    },
+    "NCAP Rating": {
+        "null": "29622",
+        "unique": "14"
+    },
+    "Airbags": {
+        "null": "29498",
+        "unique": "23"
+    },
+    "Automatic Emergency Braking ": {
+        "null": "29626",
+        "unique": "4"
+    },
+    "Lane Functions": {
+        "null": "29627",
+        "unique": "10"
+    },
+    "Lane Departure Warning": {
+        "null": "29627",
+        "unique": "3"
+    },
+    "Blind Spot Detection": {
+        "null": "29624",
+        "unique": "3"
+    },
+    "High-beam Assist": {
+        "null": "29624",
+        "unique": "4"
+    },
+    "Tyre Pressure Monitoring System": {
+        "null": "29213",
+        "unique": "3"
+    },
+    "Emergency Brake Light Flashing ": {
+        "null": "29623",
+        "unique": "3"
+    },
+    "Overspeed Warning": {
+        "null": "29589",
+        "unique": "2"
+    },
+    "Second Row Middle Seat Safety": {
+        "null": "29171",
+        "unique": "4"
+    },
+    "Child Seat Anchor Points": {
+        "null": "29221",
+        "unique": "3"
+    },
+    "Seat Belt Warning": {
+        "null": "29154",
+        "unique": "3"
+    },
+    "Air Conditioner": {
+        "null": "29123",
+        "unique": "51"
+    },
+    "Air Purifier": {
+        "null": "29616",
+        "unique": "5"
+    },
+    "Heater": {
+        "null": "29167",
+        "unique": "2"
+    },
+    "Cruise Control": {
+        "null": "29165",
+        "unique": "4"
+    },
+    "Parking Assist": {
+        "null": "29168",
+        "unique": "8"
+    },
+    "Parking Sensors": {
+        "null": "29213",
+        "unique": "3"
+    },
+    "Steering Adjustment": {
+        "null": "29123",
+        "unique": "5"
+    },
+    "Keyless Start/ Button Start": {
+        "null": "29164",
+        "unique": "2"
+    },
+    "Vanity Mirrors on Sun Visors": {
+        "null": "29169",
+        "unique": "6"
+    },
+    "Headlight and Ignition on Reminder": {
+        "null": "29171",
+        "unique": "2"
+    },
+    "Charging Ports": {
+        "null": "29165",
+        "unique": "12"
+    },
+    "Umbrella Storage in Door": {
+        "null": "29733",
+        "unique": "2"
+    },
+    "Heated/Cooled Cup Holders": {
+        "null": "29762",
+        "unique": "3"
+    },
+    "Electronic Parking Brake": {
+        "null": "29787",
+        "unique": "2"
+    },
+    "Cabin Boot Access": {
+        "null": "29215",
+        "unique": "2"
+    },
+    "Dashcam": {
+        "null": "29784",
+        "unique": "2"
+    },
+    "Headlights": {
+        "null": "29164",
+        "unique": "6"
+    },
+    "Cornering Headlights": {
+        "null": "29189",
+        "unique": "5"
+    },
+    "Headlight Height Adjuster": {
+        "null": "29167",
+        "unique": "2"
+    },
+    "Automatic Headlamps": {
+        "null": "29165",
+        "unique": "2"
+    },
+    "Taillights": {
+        "null": "29212",
+        "unique": "2"
+    },
+    "Daytime Running Lights (DRL)": {
+        "null": "29486",
+        "unique": "4"
+    },
+    "Fog Lights": {
+        "null": "29125",
+        "unique": "13"
+    },
+    "Follow Me Home Headlamps": {
+        "null": "29171",
+        "unique": "2"
+    },
+    "Interior Lamps": {
+        "null": "29208",
+        "unique": "33"
+    },
+    "Ambient Interior Lighting": {
+        "null": "29608",
+        "unique": "13"
+    },
+    "Puddle Lamps": {
+        "null": "29198",
+        "unique": "3"
+    },
+    "Brakes": {
+        "null": "29112",
+        "unique": "9"
+    },
+    "Anti-Lock Braking System (ABS)": {
+        "null": "29111",
+        "unique": "3"
+    },
+    "Brake Assist (BA)": {
+        "null": "29165",
+        "unique": "3"
+    },
+    "Electronic Brake-force Distribution (EBD)": {
+        "null": "29166",
+        "unique": "2"
+    },
+    "Electronic Stability Program (ESP)": {
+        "null": "29165",
+        "unique": "2"
+    },
+    "Traction Control System (TC/TCS)": {
+        "null": "29167",
+        "unique": "3"
+    },
+    "Hill Hold Control": {
+        "null": "29170",
+        "unique": "3"
+    },
+    "Hill Descent Control": {
+        "null": "29173",
+        "unique": "2"
+    },
+    "Limited Slip Differential": {
+        "null": "29175",
+        "unique": "2"
+    },
+    "Differential Lock": {
+        "null": "29172",
+        "unique": "4"
+    },
+    "Four-Wheel-Drive": {
+        "null": "29217",
+        "unique": "5"
+    },
+    "Engine Immobiliser": {
+        "null": "29125",
+        "unique": "2"
+    },
+    "Central Locking": {
+        "null": "29124",
+        "unique": "6"
+    },
+    "Child Safety Lock": {
+        "null": "29123",
+        "unique": "2"
+    },
+    "Speed Sensing Door Lock": {
+        "null": "29170",
+        "unique": "2"
+    },
+    "Anti-glare ORVMs": {
+        "null": "29171",
+        "unique": "3"
+    },
+    "Exterior Door ": {
+        "null": "29166",
+        "unique": "16"
+    },
+    "Interior Door Handles Finish": {
+        "null": "29180",
+        "unique": "6"
+    },
+    "Power Windows": {
+        "null": "29123",
+        "unique": "21"
+    },
+    "Window Sunshade": {
+        "null": "29217",
+        "unique": "8"
+    },
+    "Door Pockets": {
+        "null": "29165",
+        "unique": "3"
+    },
+    "Scuff Plates": {
+        "null": "29627",
+        "unique": "8"
+    },
+    "ORVM (Outside Rear View Mirrors)": {
+        "null": "29164",
+        "unique": "15"
+    },
+    "Adjustable ORVMs": {
+        "null": "29164",
+        "unique": "5"
+    },
+    "Rain-sensing Wipers": {
+        "null": "29168",
+        "unique": "2"
+    },
+    "Rear Wiper": {
+        "null": "29125",
+        "unique": "2"
+    },
+    "Boot Opener": {
+        "null": "29168",
+        "unique": "9"
+    },
+    "Rear Defogger": {
+        "null": "29135",
+        "unique": "2"
+    },
+    "Infotainment Screen": {
+        "null": "29212",
+        "unique": "38"
+    },
+    "Audio System": {
+        "null": "29164",
+        "unique": "29"
+    },
+    "AM/FM Radio": {
+        "null": "29125",
+        "unique": "3"
+    },
+    "Steering-Mounted Controls": {
+        "null": "29168",
+        "unique": "2"
+    },
+    "Integrated (in-dash) Music System": {
+        "null": "29169",
+        "unique": "3"
+    },
+    "Bluetooth Compatibility": {
+        "null": "29166",
+        "unique": "5"
+    },
+    "Smart Connectivity": {
+        "null": "29510",
+        "unique": "10"
+    },
+    "WiFi Hotspot": {
+        "null": "29627",
+        "unique": "2"
+    },
+    "Voice Command": {
+        "null": "29212",
+        "unique": "2"
+    },
+    "Gesture Control": {
+        "null": "29590",
+        "unique": "2"
+    },
+    "Input Methods ": {
+        "null": "29164",
+        "unique": "19"
+    },
+    "GPS Navigation System": {
+        "null": "29166",
+        "unique": "3"
+    },
+    "Wireless Charger": {
+        "null": "29623",
+        "unique": "3"
+    },
+    "Seat Upholstery": {
+        "null": "29124",
+        "unique": "8"
+    },
+    "Driver Seat Adjustment": {
+        "null": "29512",
+        "unique": "42"
+    },
+    "Front Passenger Seat Adjustment": {
+        "null": "29513",
+        "unique": "37"
+    },
+    "Second Row Seat Adjustment": {
+        "null": "29593",
+        "unique": "17"
+    },
+    "Third Row Seat Adjustment": {
+        "null": "29586",
+        "unique": "6"
+    },
+    "Fourth Row Seat Adjustment": {
+        "null": "29164",
+        "unique": "1"
+    },
+    "Ventilated Seats ": {
+        "null": "29215",
+        "unique": "6"
+    },
+    "Massage Seats": {
+        "null": "29678",
+        "unique": "3"
+    },
+    "Interior": {
+        "null": "29232",
+        "unique": "101"
+    },
+    "Wrappings": {
+        "null": "29567",
+        "unique": "9"
+    },
+    "Headrests": {
+        "null": "29166",
+        "unique": "4"
+    },
+    "Front Seatback Pockets": {
+        "null": "29166",
+        "unique": "2"
+    },
+    "Driver Armrest": {
+        "null": "29164",
+        "unique": "2"
+    },
+    "Rear Armrest": {
+        "null": "29164",
+        "unique": "4"
+    },
+    "Split Rear Seat": {
+        "null": "29138",
+        "unique": "6"
+    },
+    "Folding Rear Seat": {
+        "null": "29184",
+        "unique": "3"
+    },
+    "Split Third Row Seat": {
+        "null": "29173",
+        "unique": "4"
+    },
+    "Active headrest": {
+        "null": "29332",
+        "unique": "2"
+    },
+    "Rear Passenger Seat Type": {
+        "null": "29212",
+        "unique": "4"
+    },
+    "Third Row Seat Type": {
+        "null": "29212",
+        "unique": "3"
+    },
+    "Emergency Call Button": {
+        "null": "29595",
+        "unique": "3"
+    },
+    "Find My Car": {
+        "null": "29593",
+        "unique": "3"
+    },
+    "Check Vehicle Status via App": {
+        "null": "29593",
+        "unique": "3"
+    },
+    "Remote Car Lock/Unlock via App": {
+        "null": "29593",
+        "unique": "3"
+    },
+    "Remote Parking with Key": {
+        "null": "29755",
+        "unique": "3"
+    },
+    "Remote AC: On / Off via App": {
+        "null": "29593",
+        "unique": "2"
+    },
+    "Remote Sunroof: Open / Close via App": {
+        "null": "29593",
+        "unique": "2"
+    },
+    "Car Light Flashing & Honking via App": {
+        "null": "29593",
+        "unique": "3"
+    },
+    "Over The Air (OTA) Updates": {
+        "null": "29593",
+        "unique": "3"
+    },
+    "Geo-fence": {
+        "null": "29593",
+        "unique": "3"
+    },
+    "Alexa Compatibility": {
+        "null": "29594",
+        "unique": "2"
+    },
+    "Fuel Consumption": {
+        "null": "29164",
+        "unique": "11"
+    },
+    "Instrument Cluster Screen": {
+        "null": "29214",
+        "unique": "14"
+    },
+    "Trip Meter": {
+        "null": "29183",
+        "unique": "6"
+    },
+    "Door Ajar Warning": {
+        "null": "29165",
+        "unique": "2"
+    },
+    "Average Speed": {
+        "null": "29166",
+        "unique": "2"
+    },
+    "Heads Up Display (HUD)": {
+        "null": "29218",
+        "unique": "3"
+    },
+    "Tachometer": {
+        "null": "29212",
+        "unique": "4"
+    },
+    "Gear Indicator": {
+        "null": "29233",
+        "unique": "2"
+    },
+    "Gear Shift Indicator": {
+        "null": "29224",
+        "unique": "5"
+    },
+    "Clock": {
+        "null": "29165",
+        "unique": "3"
+    },
+    "Cup Holders": {
+        "null": "29142",
+        "unique": "8"
+    },
+    "Cooled Glovebox": {
+        "null": "29175",
+        "unique": "2"
+    },
+    "Sunglass Holder": {
+        "null": "29171",
+        "unique": "2"
+    },
+    "Driver Armrest Storage": {
+        "null": "29217",
+        "unique": "2"
+    },
+    "Third Row Cup Holders": {
+        "null": "29173",
+        "unique": "2"
+    },
+    "Vehicle Warranty": {
+        "null": "29173",
+        "unique": "5"
+    },
+    "Battery Warranty": {
+        "null": "29619",
+        "unique": "7"
+    },
+    "Spoiler": {
+        "null": "29789",
+        "unique": "2"
+    },
+    "Bootspace ": {
+        "null": "29311",
+        "unique": "116"
+    },
+    "Kerb Weight": {
+        "null": "29487",
+        "unique": "201"
+    },
+    "Exhaust": {
+        "null": "29773",
+        "unique": "4"
+    },
+    "Ground Clearance": {
+        "null": "29348",
+        "unique": "48"
+    },
+    "Differential": {
+        "null": "29904",
+        "unique": "2"
+    },
+    "Fuel Change Over Switch": {
+        "null": "29924",
+        "unique": "2"
+    },
+    "Direct Start in CNG": {
+        "null": "29916",
+        "unique": "3"
+    },
+    "Charging Options": {
+        "null": "29921",
+        "unique": "2"
+    },
+    "Vehicle to Vehicle charging  (V2V)": {
+        "null": "29917",
+        "unique": "2"
+    },
+    "Vehicle to load technology (V2L)": {
+        "null": "29917",
+        "unique": "2"
+    },
+    "Charger Connection Type": {
+        "null": "29916",
+        "unique": "3"
+    },
+    "Portable EV Charging Cable": {
+        "null": "29918",
+        "unique": "3"
+    },
+    "Charger Included with Vehicle": {
+        "null": "29922",
+        "unique": "2"
+    },
+    "Power Transfer Type": {
+        "null": "29922",
+        "unique": "2"
+    },
+    "ADAS": {
+        "null": "29891",
+        "unique": "3"
+    },
+    "Rear Collision Assist": {
+        "null": "29878",
+        "unique": "8"
+    },
+    "CNG Leak Detection": {
+        "null": "29921",
+        "unique": "2"
+    },
+    "Ingress Protection(IP) for Motor & Battery Pack": {
+        "null": "29918",
+        "unique": "3"
+    },
+    "Third Row Middle Seat Safety": {
+        "null": "29927",
+        "unique": "1"
+    },
+    "Remote Engine Start/Stop": {
+        "null": "29811",
+        "unique": "2"
+    },
+    "Motor Warranty (In Years)": {
+        "null": "29934",
+        "unique": "2"
+    },
+    "Drive Modes": {
+        "null": "29921",
+        "unique": "9"
+    },
+    "Noise Levels": {
+        "null": "29935",
+        "unique": "4"
+    },
+    "Extendable Sun Visor": {
+        "null": "29631",
+        "unique": "3"
+    },
+    "Utility Recess On Dashboard": {
+        "null": "29927",
+        "unique": "2"
+    },
+    "Voice Assistant": {
+        "null": "29877",
+        "unique": "3"
+    },
+    "Speed Assist System": {
+        "null": "29925",
+        "unique": "2"
+    },
+    "Clutch Lock ": {
+        "null": "29934",
+        "unique": "2"
+    },
+    "Rollover & Protection System": {
+        "null": "29919",
+        "unique": "3"
+    },
+    "Height Adjustable Seat Belt": {
+        "null": "29928",
+        "unique": "3"
+    },
+    "Driver Rear View Monitor (DRVM)": {
+        "null": "29925",
+        "unique": "2"
+    },
+    "Stop Lamp": {
+        "null": "29925",
+        "unique": "2"
+    },
+    "Integrated Washer Jets with Wiper": {
+        "null": "29920",
+        "unique": "1"
+    },
+    "Rear Parcel Tray": {
+        "null": "29926",
+        "unique": "2"
+    },
+    "Grille Design": {
+        "null": "29937",
+        "unique": "7"
+    },
+    "Snorkel": {
+        "null": "29925",
+        "unique": "1"
+    },
+    "Leading Vehicle Departure Alert": {
+        "null": "29942",
+        "unique": "2"
+    },
+    "Seatbelts": {
+        "null": "29922",
+        "unique": "5"
+    },
+    "Hands-off Detection": {
+        "null": "29931",
+        "unique": "1"
+    },
+    "Acoustic Vehicle Alerting System (AVAS)": {
+        "null": "29926",
+        "unique": "2"
+    },
+    "Anti Theft Alarm": {
+        "null": "29932",
+        "unique": "2"
+    },
+    "Dual Tone Horn": {
+        "null": "29937",
+        "unique": "2"
+    },
+    "Heated ORVM": {
+        "null": "29927",
+        "unique": "1"
+    },
+    "Boot Open Warning": {
+        "null": "29928",
+        "unique": "3"
+    },
+    "Multi-collision Brake": {
+        "null": "29931",
+        "unique": "2"
+    },
+    "Park Distance Control": {
+        "null": "29927",
+        "unique": "2"
+    },
+    "Lockable Glovebox": {
+        "null": "29932",
+        "unique": "1"
+    },
+    "Skid Plate": {
+        "null": "29927",
+        "unique": "3"
+    },
+    " Roof-Grab Handles": {
+        "null": "29930",
+        "unique": "6"
+    },
+    "In-Car Remote": {
+        "null": "29931",
+        "unique": "2"
+    },
+    "Headlight Washer": {
+        "null": "29924",
+        "unique": "2"
+    },
+    "Terrain Modes": {
+        "null": "29927",
+        "unique": "3"
+    },
+    "Fuel Fillers Lid": {
+        "null": "29927",
+        "unique": "2"
+    },
+    "Charge Port Status Light": {
+        "null": "29937",
+        "unique": "2"
+    },
+    "Welcome and Goodbye Animation": {
+        "null": "29926",
+        "unique": "2"
+    },
+    "Illuminated Logo": {
+        "null": "29928",
+        "unique": "3"
+    },
+    "Charging Indicator On Light Bar": {
+        "null": "29926",
+        "unique": "3"
+    },
+    "Inside Rear View Mirror (iRVM)": {
+        "null": "29923",
+        "unique": "3"
+    },
+    "Additional Windshield & Window Features": {
+        "null": "29928",
+        "unique": "2"
+    },
+    "Summon Mode": {
+        "null": "29932",
+        "unique": "1"
+    },
+    "Ergo lever / Boss Mode": {
+        "null": "29932",
+        "unique": "2"
+    },
+    "Comfort Headrest": {
+        "null": "29931",
+        "unique": "2"
+    },
+    "Foldable Seatback Table": {
+        "null": "29940",
+        "unique": "1"
+    },
+    "In-Car Payment": {
+        "null": "29927",
+        "unique": "2"
+    },
+    "Speedometer": {
+        "null": "29927",
+        "unique": "3"
+    },
+    "CNG Fuel Gauge": {
+        "null": "29926",
+        "unique": "2"
+    },
+    "Total CNG Mode Time": {
+        "null": "29926",
+        "unique": "2"
+    },
+    "Driveline Disconnect": {
+        "null": "29928",
+        "unique": "3"
+    },
+    "Hub Lock": {
+        "null": "29929",
+        "unique": "3"
+    },
+    "Washable Floor with Drain Plugs": {
+        "null": "29927",
+        "unique": "3"
+    },
+    "Welded Tow Hooks": {
+        "null": "29928",
+        "unique": "4"
+    },
+    "Tow Hitch Protection": {
+        "null": "29928",
+        "unique": "3"
+    },
+    "Roll Cage": {
+        "null": "29928",
+        "unique": "3"
+    },
+    "Gyro Meter": {
+        "null": "29932",
+        "unique": "3"
+    },
+    "Brake Locking Differential": {
+        "null": "29930",
+        "unique": "3"
+    },
+    "Crawl Control": {
+        "null": "29934",
+        "unique": "1"
+    },
+    "Connected LED": {
+        "null": "29926",
+        "unique": "5"
+    },
+    "Driver Drowsiness Detection": {
+        "null": "29922",
+        "unique": "2"
+    },
+    "Diffuser": {
+        "null": "29928",
+        "unique": "2"
+    },
+    "Traffic Sign Recognition": {
+        "null": "29928",
+        "unique": "2"
+    },
+    "Safe Exit Warning (SEW)": {
+        "null": "29925",
+        "unique": "2"
+    },
+    "Automatic Park Lock": {
+        "null": "29931",
+        "unique": "1"
+    },
+    "Cornering Brake Control (CBC)": {
+        "null": "29927",
+        "unique": "2"
+    },
+    "Passenger Airbag Deactivation Switch": {
+        "null": "29931",
+        "unique": "2"
+    },
+    "Reflectors": {
+        "null": "29933",
+        "unique": "3"
+    },
+    "Brake Disc Wiping": {
+        "null": "29934",
+        "unique": "2"
+    },
+    "Dead Pedal for Foot Rest": {
+        "null": "29928",
+        "unique": "2"
+    },
+    "Ambient Sounds": {
+        "null": "29928",
+        "unique": "2"
+    },
+    "Video Recording": {
+        "null": "29929",
+        "unique": "1"
+    },
+    "Brake Sway Control": {
+        "null": "29934",
+        "unique": "1"
+    },
+    "Inbuilt Music App": {
+        "null": "29938",
+        "unique": "2"
+    },
+    "Whatsapp and Text Readout": {
+        "null": "29938",
+        "unique": "2"
+    },
+    "Find and Book Parking Slot": {
+        "null": "29939",
+        "unique": "2"
+    },
+    "Location Based Services": {
+        "null": "29938",
+        "unique": "4"
+    },
+    "Live Location Sharing": {
+        "null": "29936",
+        "unique": "2"
+    },
+    "Digital Key": {
+        "null": "29937",
+        "unique": "1"
+    },
+    "Remote Air Purifier Operation": {
+        "null": "29937",
+        "unique": "2"
+    },
+    "Home-to-Car Connectivity": {
+        "null": "29933",
+        "unique": "3"
+    },
+    "Navigation On Instrument Cluster": {
+        "null": "29929",
+        "unique": "2"
+    },
+    "Tyre Position Display": {
+        "null": "29936",
+        "unique": "2"
+    },
+    "Outside Temperature Gauge": {
+        "null": "29930",
+        "unique": "2"
+    },
+    "Bottle Holder in Doors": {
+        "null": "29930",
+        "unique": "3"
+    },
+    "Low Battery Warning": {
+        "null": "29924",
+        "unique": "2"
+    },
+    "Frequency Selective Damping (FSD)": {
+        "null": "29934",
+        "unique": "2"
+    },
+    "Chassis Type": {
+        "null": "29930",
+        "unique": "2"
+    },
+    "Low Rolling Resistance Tyres": {
+        "null": "29941",
+        "unique": "2"
+    },
+    "Perimetric alarm system": {
+        "null": "29933",
+        "unique": "2"
+    },
+    "Creep Function": {
+        "null": "29931",
+        "unique": "2"
+    },
+    "Speed Dependent Volume": {
+        "null": "29933",
+        "unique": "2"
+    },
+    "Approach Angle": {
+        "null": "29939",
+        "unique": "4"
+    },
+    "Departure Angle": {
+        "null": "29939",
+        "unique": "4"
+    },
+    "Rampover Angle": {
+        "null": "29941",
+        "unique": "3"
+    },
+    "Collapsible Steering Column": {
+        "null": "29932",
+        "unique": "2"
+    },
+    "Motor Slip Regulation (MSR)": {
+        "null": "29938",
+        "unique": "2"
+    },
+    "Sequential Turn Indicators": {
+        "null": "29933",
+        "unique": "4"
+    },
+    "Clutch Type": {
+        "null": "29943",
+        "unique": "1"
+    },
+    "Tyre Inflator": {
+        "null": "29938",
+        "unique": "1"
+    },
+    "Special Badging": {
+        "null": "29945",
+        "unique": "1"
+    },
+    "Thermal Incident Protection": {
+        "null": "29940",
+        "unique": "2"
+    },
+    "Brake Override System": {
+        "null": "29941",
+        "unique": "2"
+    },
+    "What3Words -Address Based Navigation": {
+        "null": "29939",
+        "unique": "1"
+    },
+    "Pre-loaded Major Apps in Infotainment ": {
+        "null": "29941",
+        "unique": "1"
+    },
+    "SIM Service Provider ": {
+        "null": "29943",
+        "unique": "2"
+    },
+    "Anti Theft Immobilisation": {
+        "null": "29939",
+        "unique": "2"
+    },
+    "Tow Away Alert": {
+        "null": "29940",
+        "unique": "2"
+    },
+    "Auto Crash Alert": {
+        "null": "29940",
+        "unique": "2"
+    },
+    "Live Traffic Updates On App": {
+        "null": "29942",
+        "unique": "2"
+    },
+    "Vehicle Tracking Via App": {
+        "null": "29936",
+        "unique": "2"
+    },
+    "Smart Drive Information": {
+        "null": "29937",
+        "unique": "2"
+    },
+    "Driving Analytics": {
+        "null": "29941",
+        "unique": "2"
+    },
+    "Breakdown Assistance Call Button": {
+        "null": "29939",
+        "unique": "2"
+    },
+    "Send Place Of Interest to Vehicle From App": {
+        "null": "29938",
+        "unique": "2"
+    },
+    "Connected Car App": {
+        "null": "29937",
+        "unique": "2"
+    },
+    "Service Reminder Via App": {
+        "null": "29938",
+        "unique": "2"
+    },
+    "Call Reject with SMS": {
+        "null": "29939",
+        "unique": "2"
+    },
+    "Water Wading Depth (mm)": {
+        "null": "29942",
+        "unique": "1"
+    },
+    "App Details": {
+        "null": "29937",
+        "unique": "7"
+    },
+    "Torque Vectoring Brake Assist": {
+        "null": "29942",
+        "unique": "1"
+    },
+    "Brake Fade Support": {
+        "null": "29943",
+        "unique": "1"
+    },
+    "Eco-Drive Illumination": {
+        "null": "29942",
+        "unique": "1"
+    },
+    "Kerb Weight Range": {
+        "null": "29944",
+        "unique": "2"
+    },
+    "Gross Weight": {
+        "null": "29943",
+        "unique": "3"
+    },
+    "Child Safety Rating": {
+        "null": "29945",
+        "unique": "1"
+    },
+    "ORVMs Tilt on Reverse": {
+        "null": "29945",
+        "unique": "1"
+    },
+    "Memory ORVMs": {
+        "null": "29944",
+        "unique": "1"
+    },
+    "DC Fast Charging": {
+        "null": "29933",
+        "unique": "3"
+    },
+    "AC Fast Charging": {
+        "null": "29933",
+        "unique": "5"
+    },
+    "AC Regular Charging": {
+        "null": "29943",
+        "unique": "2"
+    },
+    "Officially Certified Range (km)": {
+        "null": "29945",
+        "unique": "1"
+    },
+    "CNG Tank Capacity (L/Kg)": {
+        "null": "29942",
+        "unique": "1"
+    }
+}

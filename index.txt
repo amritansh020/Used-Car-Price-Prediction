@@ -1,0 +1,166 @@
+Old Cars Price Prediction:
+1. Price Prediction 
+2. Data Analysis
+3. Recomendation System
+4. Car compare
+
+Process:
+1. Web Scraping: Getting data from web.(3000+ rows) (Final Rows: 30000)
+2. Data Cleaning
+3. EDA
+4. Feature Selection
+5. Models
+6. Streamlit Application
+
+Web Scraping Libraries: BS4,Request, Playwright
+Installing Playwright:
+python -m pip install playwright
+
+Upgrading pip:
+pip install --upgrade pip
+
+Installing Required browser from playwright:
+python -m playwright install
+
+Important Features (By Fuel Type):
+
+Petrol Cars
+Core Features (Must Keep)
+Engine
+Engine Type
+Mileage
+Max Power
+Max Torque
+Transmission
+Drivetrain
+Fuel Tank Capacity
+Turbocharger/Supercharger
+Idle Start/Stop
+Emission Standard
+
+Important Features
+
+ABS
+ESP
+Airbags
+Cruise Control
+Parking Sensors
+Parking Assist
+Sunroof
+TPMS
+Wheelbase
+Ground Clearance
+Bootspace
+
+🚙 Diesel Cars
+Core Features
+Engine
+Mileage
+Max Power
+Max Torque
+Transmission
+Turbocharger
+Fuel Tank Capacity
+Drivetrain
+Emission Standard
+
+Important
+
+ABS
+ESP
+Cruise Control
+Hill Hold
+Parking Sensors
+Sunroof
+TPMS
+Airbags
+
+⚡ Electric Cars (EV)
+Core Features
+Battery
+Electric Motor
+Driving Range
+Charging Options
+DC Fast Charging
+AC Fast Charging
+AC Regular Charging
+Charging Ports
+Battery Warranty
+Motor Warranty
+Pure Electric Driving Mode
+Regenerative Braking
+Drive Modes
+
+Important
+
+ADAS
+Wireless Charger
+OTA Updates
+Connected Car
+Voice Assistant
+Vehicle to Load
+Vehicle to Vehicle Charging
+Remove
+Fuel Tank Capacity
+Turbocharger
+Idle Start/Stop
+Emission Standard
+Alternate Fuel
+Fuel Change Over Switch
+Engine
+Engine Type
+
+CNG Cars
+
+Core Features
+Engine
+Fuel Tank Capacity
+Mileage
+Max Power
+Max Torque
+Transmission
+Fuel Change Over Switch
+Direct Start in CNG
+CNG Leak Detection
+CNG Tank Capacity
+
+
+🌿 Hybrid Cars
+Core Features
+Engine
+Battery
+Electric Motor
+Mileage
+Max Power
+Transmission
+Driving Range
+Regenerative Braking
+Drive Modes
+
+Universal Features 
+Brand
+Model
+Variant
+Price
+Manufacturing Year
+Registration Year
+Car Age
+Kilometer
+Owner
+Insurance
+Registration Type
+Transmission
+Color
+City
+Wheelbase
+Bootspace
+Ground Clearance
+Seating Capacity
+Doors
+Airbags
+ABS
+ESP
+Cruise Control
+Parking Sensors
+Sunroof
+Parking Assist
